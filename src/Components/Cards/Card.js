@@ -1,19 +1,22 @@
 import React, { useEffect } from "react";
 
-const Card = ({ currentCards, clicked, setClicked }) => {
+const Card = ({ currentCards, clicked, setClicked, index }) => {
   //push additional card to clicked array
-  useEffect(() => {
-    const addClicked = () => {
-      setClicked([...clicked, currentCards.flag]);
-    };
+  //   useEffect(() => {
+  const addClicked = () => {
+    setClicked([...clicked, currentCards.flag]);
+  };
 
-    document.addEventListener("click", addClicked);
-    console.log(clicked);
-  });
+  console.log(clicked);
+  //   });
 
   return (
-    <div id="card">
-      <img className="flag" src={`${currentCards.asset}`}></img>
+    <div id={`${index}card`}>
+      <img
+        className="flag"
+        src={`${currentCards.asset}`}
+        onClick={addClicked}
+      ></img>
     </div>
   );
 };

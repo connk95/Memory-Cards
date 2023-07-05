@@ -14,6 +14,7 @@ const Gameboard = ({ currentCards, level, clicked, setClicked }) => {
     return currentCards.map((currentCards, index) => (
       <Card
         key={`flag${index}`}
+        index={index}
         currentCards={currentCards}
         clicked={clicked}
         setClicked={setClicked}

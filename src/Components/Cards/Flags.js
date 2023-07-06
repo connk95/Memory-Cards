@@ -1,3 +1,4 @@
+import shuffle from "../Utilities/Shuffle";
 import ca from "../../Images/assets/h240/ca.png";
 import jp from "../../Images/assets/h240/jp.png";
 import us from "../../Images/assets/h240/us.png";
@@ -88,26 +89,6 @@ const flags = [
     asset: hk,
   },
 ];
-
-const shuffle = (array) => {
-  let currentIndex = array.length,
-    randomIndex;
-
-  // While there remain elements to shuffle
-  while (currentIndex !== 0) {
-    // Pick a remaining element
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    // And swap it with the current element
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex],
-      array[currentIndex],
-    ];
-  }
-
-  return array;
-};
 
 shuffle(flags);
 

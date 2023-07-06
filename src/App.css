@@ -7,3 +7,15 @@ button {
   width: 180px;
   margin: 10px;
 }
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#gameboard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}

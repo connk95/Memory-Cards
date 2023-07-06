@@ -14,6 +14,7 @@ const App = () => {
   const [currentScore, setCurrentScore] = useState(0);
   const [hiScore, setHiScore] = useState(0);
 
+  //loads 2*level+2 cards when level state changes
   useEffect(() => {
     const loadLevel = () => {
       if (level > 0) {
@@ -24,21 +25,55 @@ const App = () => {
     loadLevel();
   }, [level]);
 
-  //console.log(currentCards);
+  useEffect(() => {
+    const shuffleCurrent = (array) => {
+      let currentIndex = array.length,
+        randomIndex;
+
+      // While there remain elements to shuffle
+      while (currentIndex !== 0) {
+        // Pick a remaining element
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+
+        // And swap it with the current element
+        [array[currentIndex], array[randomIndex]] = [
+          array[randomIndex],
+          array[currentIndex],
+        ];
+      }
+
+      return array;
+    };
+    shuffleCurrent(currentCards);
+  });
+
+  useEffect(() => {
+    (() => {
+      let newArray = currentCards.map((element) => {
+        return element.flag;
+      });
+      if (newArray.every((element) => clicked.includes(element))) {
+        setLevel(level + 1);
+      }
+    })();
+  }, [clicked]);
 
   return (
     <div>
       <div>
         <Header currentScore={currentScore} hiScore={hiScore} />
       </div>
-      <div>
+      <div id="gameboard">
         <Gameboard
           currentCards={currentCards}
           level={level}
           clicked={clicked}
           setClicked={setClicked}
+          setLevel={setLevel}
+          currentScore={currentScore}
+          setCurrentScore={setCurrentScore}
         />
-        <button onClick={() => setLevel(level + 1)}></button>
       </div>
     </div>
   );

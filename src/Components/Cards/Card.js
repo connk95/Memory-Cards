@@ -1,14 +1,18 @@
 import React, { useEffect } from "react";
 
-const Card = ({ currentCards, clicked, setClicked, index }) => {
+const Card = ({
+  currentCards,
+  clicked,
+  setClicked,
+  index,
+  currentScore,
+  setCurrentScore,
+}) => {
   //push additional card to clicked array
-  //   useEffect(() => {
   const addClicked = () => {
     setClicked([...clicked, currentCards.flag]);
+    setCurrentScore(currentScore + 1);
   };
-
-  console.log(clicked);
-  //   });
 
   return (
     <div id={`${index}card`}>

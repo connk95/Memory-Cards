@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = ({ currentScore, hiScore }) => {
   return (
-    <div>
+    <div id="header">
       <p>Current Score: {currentScore}</p>
       <p>Hi-Score: {hiScore}</p>
     </div>

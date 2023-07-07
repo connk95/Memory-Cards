@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cefcd2f9.css",
+    "main.js": "/static/js/main.8aa614fe.js",
+    "static/media/Mexico@2x.svg": "/static/media/Mexico@2x.2fb7264f5a557b059c704b1b5b541236.svg",
+    "static/media/saudi_arabia@2x.svg": "/static/media/saudi_arabia@2x.a56effa5ba9819d8537fa1bf317cd150.svg",
+    "static/media/wales@2x.svg": "/static/media/wales@2x.deff803e43df4f0fcad21eb1e5d65b22.svg",
+    "static/media/Albania@2x.svg": "/static/media/Albania@2x.d201031667b255f061a84fb79841bd31.svg",
+    "static/media/USA@2x.svg": "/static/media/USA@2x.17baaddc96bd0a712fd44f455ed04230.svg",
+    "static/media/Iran@2x.svg": "/static/media/Iran@2x.be23649ee9dff7ca45b7048cd9358ef8.svg",
+    "static/media/Spain@2x.svg": "/static/media/Spain@2x.5cc48da2f12812c81a679fc3f2f4d576.svg",
+    "static/media/Hong_Kong@2x.svg": "/static/media/Hong_Kong@2x.f7dc7655a46626610f3739497b70468c.svg",
+    "static/media/South_Korea@2x.svg": "/static/media/South_Korea@2x.d90ca6b7c593f3174bb00b5d704796b6.svg",
+    "static/media/new_zealand@2x.svg": "/static/media/new_zealand@2x.c29b89a74899e27e8f4544e708cf5af0.svg",
+    "static/media/China@2x.svg": "/static/media/China@2x.d8016fe09227df4acdb94da3f3e65c65.svg",
+    "static/media/Canada@2x.svg": "/static/media/Canada@2x.7e83fd4f0891c40da4502e6c8b8ea175.svg",
+    "static/media/uk@2x.svg": "/static/media/uk@2x.a7757c0edf13d0cedc682e53649cb14c.svg",
+    "static/media/Argentina@2x.svg": "/static/media/Argentina@2x.c0ef79be5776ceee4f76292a30dd54ed.svg",
+    "static/media/Cuba@2x.svg": "/static/media/Cuba@2x.3e23814aa6c5b95cabbb1fbb583fbf4c.svg",
+    "static/media/cameroon@2x.svg": "/static/media/cameroon@2x.5264727031ffdaf52cc35b5f3c47c89b.svg",
+    "static/media/south_africa@2x.svg": "/static/media/south_africa@2x.29cc0c023d9f953d673c62ba84e7fd83.svg",
+    "static/media/Brazil@2x.svg": "/static/media/Brazil@2x.73feabd040467744a83db43d0b504582.svg",
+    "static/media/Egypt@2x.svg": "/static/media/Egypt@2x.52605848ac9e2f27e47ba1b936b9a987.svg",
+    "static/media/Seychelles@2x.svg": "/static/media/Seychelles@2x.ae768a5bf4d60ffb705574e97cc92ec4.svg",
+    "static/media/France-3@2x.svg": "/static/media/France-3@2x.d3794f02d7e91e911287b47ab69ecb7a.svg",
+    "static/media/Italy@2x.svg": "/static/media/Italy@2x.5df629e9a81b71dbacb55d8f5aed7f25.svg",
+    "static/media/philippines@2x.svg": "/static/media/philippines@2x.2a97e76e26b200d439bbe26e51df9a89.svg",
+    "static/media/Morocco@2x.svg": "/static/media/Morocco@2x.2c2582f060705e210bf07d1bda7cd2d3.svg",
+    "static/media/Chech_republic@2x.svg": "/static/media/Chech_republic@2x.bf19e7d43aa8371473308c475c57f05d.svg",
+    "static/media/netherlands-3@2x.svg": "/static/media/netherlands-3@2x.3e9d10da5e4d0c45b8270aa23381c640.svg",
+    "static/media/Germany@2x.svg": "/static/media/Germany@2x.8bbe5bc294f7b302b2e570e8422221d2.svg",
+    "static/media/Sierra_leone-2@2x.svg": "/static/media/Sierra_leone-2@2x.5a7d2ac43a5b27da90c0f5a404600c39.svg",
+    "static/media/Sweden@2x.svg": "/static/media/Sweden@2x.c28d7d668366978544844915f9d414ea.svg",
+    "static/media/Japan@2x.svg": "/static/media/Japan@2x.0d3bd45912674955fb19d49ac7067a99.svg",
+    "index.html": "/index.html",
+    "main.cefcd2f9.css.map": "/static/css/main.cefcd2f9.css.map",
+    "main.8aa614fe.js.map": "/static/js/main.8aa614fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cefcd2f9.css",
+    "static/js/main.8aa614fe.js"
+  ]
+}

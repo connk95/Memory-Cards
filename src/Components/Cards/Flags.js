@@ -1,22 +1,34 @@
 import shuffle from "../Utilities/Shuffle";
-import ca from "../../Images/assets/h240/ca.png";
-import jp from "../../Images/assets/h240/jp.png";
-import us from "../../Images/assets/h240/us.png";
-import se from "../../Images/assets/h240/se.png";
-import kr from "../../Images/assets/h240/kr.png";
-import it from "../../Images/assets/h240/it.png";
-import fr from "../../Images/assets/h240/fr.png";
-import es from "../../Images/assets/h240/es.png";
-import de from "../../Images/assets/h240/de.png";
-import ar from "../../Images/assets/h240/ar.png";
-import nl from "../../Images/assets/h240/nl.png";
-import za from "../../Images/assets/h240/za.png";
-import br from "../../Images/assets/h240/br.png";
-import cm from "../../Images/assets/h240/cm.png";
-import cz from "../../Images/assets/h240/cz.png";
-import eg from "../../Images/assets/h240/eg.png";
-import al from "../../Images/assets/h240/al.png";
-import hk from "../../Images/assets/h240/hk.png";
+import ca from "../../Images/assets/SVG/Canada@2x.svg";
+import jp from "../../Images/assets/SVG/Japan@2x.svg";
+import us from "../../Images/assets/SVG/USA@2x.svg";
+import se from "../../Images/assets/SVG/Sweden@2x.svg";
+import kr from "../../Images/assets/SVG/South_Korea@2x.svg";
+import it from "../../Images/assets/SVG/Italy@2x.svg";
+import fr from "../../Images/assets/SVG/France-3@2x.svg";
+import es from "../../Images/assets/SVG/Spain@2x.svg";
+import de from "../../Images/assets/SVG/Germany@2x.svg";
+import ar from "../../Images/assets/SVG/Argentina@2x.svg";
+import nl from "../../Images/assets/SVG/netherlands-3@2x.svg";
+import za from "../../Images/assets/SVG/south_africa@2x.svg";
+import br from "../../Images/assets/SVG/Brazil@2x.svg";
+import cm from "../../Images/assets/SVG/cameroon@2x.svg";
+import cz from "../../Images/assets/SVG/Chech_republic@2x.svg";
+import eg from "../../Images/assets/SVG/Egypt@2x.svg";
+import al from "../../Images/assets/SVG/Albania@2x.svg";
+import hk from "../../Images/assets/SVG/Hong_Kong@2x.svg";
+import cb from "../../Images/assets/SVG/Cuba@2x.svg";
+import mr from "../../Images/assets/SVG/Morocco@2x.svg";
+import sa from "../../Images/assets/SVG/saudi_arabia@2x.svg";
+import nz from "../../Images/assets/SVG/new_zealand@2x.svg";
+import mx from "../../Images/assets/SVG/Mexico@2x.svg";
+import sl from "../../Images/assets/SVG/Sierra_leone-2@2x.svg";
+import sy from "../../Images/assets/SVG/Seychelles@2x.svg";
+import pl from "../../Images/assets/SVG/philippines@2x.svg";
+import ir from "../../Images/assets/SVG/Iran@2x.svg";
+import wl from "../../Images/assets/SVG/wales@2x.svg";
+import uk from "../../Images/assets/SVG/uk@2x.svg";
+import cn from "../../Images/assets/SVG/China@2x.svg";
 
 const flags = [
   { flag: "Canada", asset: ca },
@@ -87,6 +99,54 @@ const flags = [
   {
     flag: "Hong Kong",
     asset: hk,
+  },
+  {
+    flag: "Cuba",
+    asset: cb,
+  },
+  {
+    flag: "Morocco",
+    asset: mr,
+  },
+  {
+    flag: "Saudi Arabia",
+    asset: sa,
+  },
+  {
+    flag: "New Zealand",
+    asset: nz,
+  },
+  {
+    flag: "Mexico",
+    asset: mx,
+  },
+  {
+    flag: "Sierra Leone",
+    asset: sl,
+  },
+  {
+    flag: "Seychelles",
+    asset: sy,
+  },
+  {
+    flag: "Philippines",
+    asset: pl,
+  },
+  {
+    flag: "Iran",
+    asset: ir,
+  },
+  {
+    flag: "Wales",
+    asset: wl,
+  },
+  {
+    flag: "United Kingdom",
+    asset: uk,
+  },
+  {
+    flag: "China",
+    asset: cn,
   },
 ];
 

@@ -55,9 +55,7 @@ const App = () => {
 
   return (
     <div>
-      <div>
-        <Header currentScore={currentScore} hiScore={hiScore} />
-      </div>
+      <Header currentScore={currentScore} hiScore={hiScore} />
       <div id="gameboard">
         <Gameboard
           currentCards={currentCards}

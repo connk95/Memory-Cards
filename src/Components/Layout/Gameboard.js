@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../Cards/Card";
+import Instructions from "./Instructions";
 
 const Gameboard = ({
   currentCards,
@@ -14,9 +15,12 @@ const Gameboard = ({
 
   if (level < 1) {
     return (
-      <div>
-        <h1 onClick={() => setLevel(level + 1)}>Start</h1>
-        <p>Instructions</p>
+      <div id="title">
+        <div id="start">
+          {" "}
+          <h1 onClick={() => setLevel(level + 1)}>Start</h1>
+        </div>
+        <Instructions />
       </div>
     );
 
